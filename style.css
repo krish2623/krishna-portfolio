@@ -1,0 +1,98 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Decent and clean headline style */
+h1 {
+  font-size: 2.8rem;
+  color: #00bcd4;           /* Soft cyan-blue */
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* subtle shadow */
+  letter-spacing: 1.5px;
+  animation: none;          /* no animation */
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+}
+
+h2 {
+  color: #00ffd5;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Modal styles (if you have them) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 10; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal img {
+  display: block;
+  margin: 50px auto;
+  max-width: 90%;
+  max-height: 80vh;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #00bcd4;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
